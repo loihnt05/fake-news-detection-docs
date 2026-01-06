@@ -115,9 +115,10 @@
     set text(size: 14pt, weight: "bold")
     set block(above: 1em)
 
-    if [#it.body()] == [TÀI LIỆU THAM KHẢO] {
-      return [#text(size: 14pt, weight: "bold")[
-          #link(it.element.location(), it.inner())]
+
+    if [#it.body()] == [TÀI LIỆU THAM KHẢO] or [#it.body()] == [MỞ ĐẦU] {
+      return [#text(size: 14pt, weight: "bold")[#link(it.element.location(), it.inner())
+        ]
       ]
     }
     [#text(size: 14pt)[
@@ -148,12 +149,16 @@
 
 #show heading.where(level: 1): it => {
   let prefix = [Chương ]
-  if lower(plain-text(it.body).trim()) == "tài liệu tham khảo" {
+  let raw-text = lower(plain-text(it.body).trim())
+  if raw-text == "tài liệu tham khảo" or raw-text == "mở đầu" {
     return it.body
   }
   return prefix + [#counter(heading).at(here()).at(0). ] + it.body
 }
 
+
+#set page(numbering: "1")
+#counter(page).update(1)
 #include "problem-statement.typ"
 #pagebreak()
 #include "chuong1.typ"
