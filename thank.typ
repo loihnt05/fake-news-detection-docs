@@ -7,20 +7,13 @@ block[
   LỜI CẢM ƠN
 ]))
 
-Em xin gửi lời cảm ơn chân thành và sâu sắc nhất đến thầy Nguyễn Công Hoan –
-người đã tận tình hướng dẫn, chỉ bảo và đồng hành cùng em trong suốt quá trình
-thực hiện môn học Đồ án 2.
+Em xin bày tỏ lòng biết ơn sâu sắc và chân thành nhất đến thầy Nguyễn Công Hoan – người đã luôn tận tâm hướng dẫn, chỉ bảo và đồng hành cùng em trong suốt quá trình thực hiện môn học Đồ án 1.
 
-Sự hỗ trợ nhiệt tình, những lời khuyên quý báu và kinh nghiệm chuyên môn của thầy
-đã giúp em không chỉ hoàn thành đồ án một cách tốt nhất mà còn tích lũy thêm
-nhiều kiến thức và kỹ năng thực tế quan trọng. Những định hướng của thầy đã giúp
-em nhìn nhận vấn đề một cách thấu đáo và tự tin hơn trong việc áp dụng lý thuyết
-vào thực tiễn.
+Trong suốt thời gian thực hiện đồ án, thầy không chỉ truyền đạt những kiến thức chuyên môn quan trọng mà còn tận tình chia sẻ nhiều kinh nghiệm thực tế quý báu. Những góp ý chi tiết, những định hướng rõ ràng và khoa học của thầy đã giúp em từng bước tháo gỡ khó khăn, hoàn thiện nội dung đồ án một cách bài bản và hiệu quả hơn. Nhờ sự hướng dẫn của thầy, em có cơ hội hiểu sâu hơn về cách tiếp cận vấn đề, phương pháp nghiên cứu cũng như khả năng vận dụng kiến thức lý thuyết vào thực tiễn.
 
-Em cũng xin cảm ơn sự kiên nhẫn và tinh thần trách nhiệm của thầy trong việc giải
-đáp thắc mắc, chỉnh sửa và góp ý cho đồ án của em. Điều này không chỉ giúp em
-cải thiện đồ án mà còn truyền cảm hứng và động lực để em tiếp tục cố gắng trong
-những chặng đường học tập và công việc sau này.
+Em đặc biệt trân trọng sự kiên nhẫn, tinh thần trách nhiệm và sự tận tụy của thầy trong việc theo dõi tiến độ, lắng nghe những thắc mắc của em và đưa ra những nhận xét, chỉnh sửa kịp thời. Mỗi ý kiến đóng góp của thầy đều mang tính định hướng cao, giúp em không chỉ cải thiện chất lượng đồ án mà còn rèn luyện tư duy logic, tính cẩn trọng và tinh thần học hỏi nghiêm túc trong quá trình học tập.
+
+Những sự chỉ dẫn và động viên của thầy không chỉ có ý nghĩa đối với riêng đồ án này mà còn là hành trang quý giá, tạo động lực để em tiếp tục nỗ lực, cố gắng hơn nữa trong chặng đường học tập và công việc sau này. Một lần nữa, em xin gửi đến thầy lời cảm ơn chân thành cùng lời chúc sức khỏe, chúc thầy luôn thành công và tiếp tục truyền cảm hứng cho nhiều thế hệ sinh viên.
 
 *Một lần nữa, em xin gửi đến thầy lời tri ân sâu sắc!*
 ]
@@ -32,11 +25,11 @@ những chặng đường học tập và công việc sau này.
   #datetime.today().display("[day]/[month]/[year]")
 ]
 #linebreak()
-#text(size: 12pt)[Sinh viên thực hiện]
+#text(size: 12pt)[Nhóm sinh viên thực hiện]
 
 #v(60pt)
 
 #align(center)[
-Phạm Nhật Huy
+Hồ Nguyễn Tài Lợi - Nguyễn Trung Kiên
 ]
 ])
